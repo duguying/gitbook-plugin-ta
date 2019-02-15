@@ -1,0 +1,6 @@
+{% extends template.self %}
+
+{% block head %}
+    {{ super() }}
+    <script type="text/javascript" src="//tajs.qq.com/stats?sId={{ config.pluginsConfig.ta.sid }}" charset="UTF-8"></script>
+{% endblock %}

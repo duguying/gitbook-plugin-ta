@@ -1,0 +1,42 @@
+{
+  "name": "gitbook-plugin-ta",
+  "version": "3.0.2",
+  "description": "Tencent Analytics for your gitbook",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4",
+    "gitbook": ">=3.2.0"
+  },
+  "gitbook": {
+    "properties": {
+      "sid": {
+        "type": "string",
+        "required": true,
+        "description": "Tencent Analytics sid."
+      }
+    }
+  },
+  "scripts": {
+    "postpublish": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denysdovhan/gitbook-plugin-ta.git"
+  },
+  "keywords": [
+    "gitbook",
+    "ta",
+    "plugin"
+  ],
+  "author": "Denys Dovhan <email@denysdovhan.com> (http://denysdovhan.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denysdovhan/gitbook-plugin-ta/issues"
+  },
+  "homepage": "https://github.com/denysdovhan/gitbook-plugin-ta#readme",
+  "dependencies": {
+    "get-md-desc": "^1.0.2",
+    "get-md-title": "^1.0.4",
+    "rss": "^1.2.2"
+  }
+}
