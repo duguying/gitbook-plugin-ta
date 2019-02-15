@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-ta",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Tencent Analytics for your gitbook",
   "main": "index.js",
   "engines": {
@@ -35,8 +35,5 @@
   },
   "homepage": "https://github.com/denysdovhan/gitbook-plugin-ta#readme",
   "dependencies": {
-    "get-md-desc": "^1.0.2",
-    "get-md-title": "^1.0.4",
-    "rss": "^1.2.2"
   }
 }
