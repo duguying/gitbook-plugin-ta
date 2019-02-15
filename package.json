@@ -21,19 +21,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/denysdovhan/gitbook-plugin-ta.git"
+    "url": "git+https://github.com/duguying/gitbook-plugin-ta.git"
   },
   "keywords": [
     "gitbook",
     "ta",
     "plugin"
   ],
-  "author": "Denys Dovhan <email@denysdovhan.com> (http://denysdovhan.com)",
+  "author": "Denys Dovhan <duguying2008@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/denysdovhan/gitbook-plugin-ta/issues"
+    "url": "https://github.com/duguying/gitbook-plugin-ta/issues"
   },
-  "homepage": "https://github.com/denysdovhan/gitbook-plugin-ta#readme",
+  "homepage": "https://github.com/duguying/gitbook-plugin-ta#readme",
   "dependencies": {
   }
 }
